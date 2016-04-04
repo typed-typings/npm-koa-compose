@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "prepublish": "typings install",
+    "test": "typings bundle . -o bundle && ts-node test.ts"
+  },
+  "devDependencies": {
+    "koa-compose": "^3.1.0",
+    "ts-node": "^0.7.1",
+    "typescript": "^1.8.2",
+    "typings": "^0.7.11"
+  }
+}

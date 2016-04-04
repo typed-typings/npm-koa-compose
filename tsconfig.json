@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true
+  },
+  "files": [
+    "test.ts",
+    "index.d.ts",
+    "typings/main.d.ts"
+  ]
+}
